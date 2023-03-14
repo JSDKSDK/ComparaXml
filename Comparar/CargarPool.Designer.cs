@@ -41,7 +41,7 @@
             btnSelect.Name = "btnSelect";
             btnSelect.Size = new Size(285, 63);
             btnSelect.TabIndex = 0;
-            btnSelect.Text = "Selecciona Pool";
+            btnSelect.Text = "Seleccionar Pool";
             btnSelect.UseVisualStyleBackColor = true;
             btnSelect.Click += btnSelect_Click;
             // 
@@ -51,8 +51,9 @@
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(285, 59);
             btnLoad.TabIndex = 1;
-            btnLoad.Text = "Inicar Carga pool";
+            btnLoad.Text = "Iniciar Carga pool";
             btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.Visible = false;
             btnLoad.Click += btnLoad_Click;
             // 
             // btnexecute
@@ -61,8 +62,9 @@
             btnexecute.Name = "btnexecute";
             btnexecute.Size = new Size(285, 60);
             btnexecute.TabIndex = 2;
-            btnexecute.Text = "Inica comparacion";
+            btnexecute.Text = "Inicia comparacion";
             btnexecute.UseVisualStyleBackColor = true;
+            btnexecute.Visible = false;
             btnexecute.Click += btnexecute_Click;
             // 
             // button1

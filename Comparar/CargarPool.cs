@@ -35,7 +35,9 @@ namespace Comparar
                         ListaCasosPrueba = csv.GetRecords<ModelPool>().ToList();
                         MessageBox.Show(string.Format("Pool de Datos Cargado correctamente."));
                         continuar = true;
-                        
+                        btnLoad.Visible = false;
+                        btnexecute.Visible = true;
+
 
                     }
                     catch (Exception)
@@ -75,6 +77,7 @@ namespace Comparar
                     if (url != null | url != "")
                     {
                         btnLoad.Visible = true;
+                        btnSelect.Visible = false;
                     }
 
                 }
@@ -114,12 +117,12 @@ namespace Comparar
 
         private void button1_Click(object sender, EventArgs e)
         {
-                if (PreClosingConfirmation() == DialogResult.Yes)
-                {
+            if (PreClosingConfirmation() == DialogResult.Yes)
+            {
 
-                    Environment.Exit(-1);
-                }
-               
+                Environment.Exit(-1);
+            }
+
         }
     }
 }

@@ -215,7 +215,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\javit\\source\\repos\\ComparaXml\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\javit\\source\\repos\\ComparaXml\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
