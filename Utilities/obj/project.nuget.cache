@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VMqKiq6athjfoLch0YaoIXs844LE0uaD5IMpqr807URur/Pn1EuRrBRpGZwtg4Ta4guEwSw8Ab5LpeBNtxgs8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\javit\\source\\repos\\ComparaXml\\Utilities\\Utilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javit\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
+    "C:\\Users\\javit\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

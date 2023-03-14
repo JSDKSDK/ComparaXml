@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRbZCHKCcGrHoOgpz7oO9mZdQSnF1vEJzBzbCIOOFetHEFenANRnYzHJaLULldGxQh+YeeJ4/4j5tphZ6rmCBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\javit\\source\\repos\\ComparaXml\\Comparar\\Comparar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javit\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\javit\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
+    "C:\\Users\\javit\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
