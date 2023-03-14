@@ -1,4 +1,5 @@
 ﻿using Models.Pools;
+using Models.Reportes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
