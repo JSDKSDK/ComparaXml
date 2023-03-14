@@ -41,7 +41,8 @@
       },
       "Utilities/1.0.0": {
         "dependencies": {
-          "DocumentFormat.OpenXml": "2.19.0"
+          "DocumentFormat.OpenXml": "2.19.0",
+          "Models": "1.0.0"
         },
         "runtime": {
           "Utilities.dll": {}

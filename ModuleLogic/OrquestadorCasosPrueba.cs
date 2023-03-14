@@ -19,8 +19,6 @@ namespace ModuleLogic
         public List<ModelPool> ListaCasosPrueba = new List<ModelPool>();
         public static List<ReporteDiferencia> Lista_diferencias_archivos = new List<ReporteDiferencia>();
 
-
-
         public void Orquestador()
         {
             foreach (ModelPool CasodePrueba in ListaCasosPrueba)
@@ -66,8 +64,6 @@ namespace ModuleLogic
 
         private void GenerarXLS()
         {
-
-
             var demoTable = new DataTable("Respuestas");
             string archivo = Guid.NewGuid().ToString() + ".xlsx";
             demoTable.Columns.Add("Tipo_Archivo");

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Utilities/1.0.0": {
         "dependencies": {
-          "DocumentFormat.OpenXml": "2.19.0"
+          "DocumentFormat.OpenXml": "2.19.0",
+          "Models": "1.0.0"
         },
         "runtime": {
           "Utilities.dll": {}
@@ -32,6 +33,11 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
       }
     }
   },
@@ -54,6 +60,11 @@
       "sha512": "sha512-9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
       "path": "system.io.packaging/4.7.0",
       "hashPath": "system.io.packaging.4.7.0.nupkg.sha512"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

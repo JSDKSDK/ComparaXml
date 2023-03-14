@@ -15,7 +15,7 @@ namespace ModuleLogic.RutinaCompareXML
     public  class CompareXML
     {
         static ValidarStructuraXml validarXml = new ValidarStructuraXml();
-        public static Dictionary<string, string> CompareXmlFilesByTag(string filePath1, string filePath2)
+        public static Dictionary<string, string> CompareXmlFilesByTag(string filePath1, string filePath2, ModelPool casodePrueba)
         {
 
             XmlDocument doc1 = new XmlDocument();
@@ -32,7 +32,7 @@ namespace ModuleLogic.RutinaCompareXML
             // Obtener lista de todas las etiquetas presentes en cada documento
             List<string> tagsXml1 = validarXml.GetXmlTags(doc1.DocumentElement);
             List<string> tagsXml2 = validarXml.GetXmlTags(doc2.DocumentElement);
-          
+
             // Comparar si las listas de etiquetas son iguales
             if (tagsXml1.SequenceEqual(tagsXml2))
             {
@@ -48,6 +48,9 @@ namespace ModuleLogic.RutinaCompareXML
             }
             else
             {
+                string diferencia = "Los archivos no tienen la misma estructura de etiquetas";
+                AgregaListaReporte.agregaListaReporte(casodePrueba, diferencia);
+
                 Console.WriteLine("Los archivos no tienen la misma estructura de etiquetas");
             }
 

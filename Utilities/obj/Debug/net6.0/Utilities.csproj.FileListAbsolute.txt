@@ -22,3 +22,6 @@ C:\Users\javit\source\repos\ComparaXml\Utilities\obj\Debug\net6.0\Utilities.dll
 C:\Users\javit\source\repos\ComparaXml\Utilities\obj\Debug\net6.0\refint\Utilities.dll
 C:\Users\javit\source\repos\ComparaXml\Utilities\obj\Debug\net6.0\Utilities.pdb
 C:\Users\javit\source\repos\ComparaXml\Utilities\obj\Debug\net6.0\ref\Utilities.dll
+C:\Users\javit\source\repos\ComparaXml\Utilities\bin\Debug\net6.0\Models.dll
+C:\Users\javit\source\repos\ComparaXml\Utilities\bin\Debug\net6.0\Models.pdb
+C:\Users\javit\source\repos\ComparaXml\Utilities\obj\Debug\net6.0\Utilities.csproj.CopyComplete
